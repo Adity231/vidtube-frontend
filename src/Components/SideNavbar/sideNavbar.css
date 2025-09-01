@@ -1,0 +1,79 @@
+.home-SideNavbar {
+    display: flex;
+    flex-direction: column;
+    flex: 0.16 1;
+    width: 275px;
+    top: 55px;
+    left:0px;
+    height: 94vh;
+    position: fixed;
+    overflow-y: auto;
+    padding: 14px;
+    box-sizing: border-box;background-color: black;
+    color: white;
+}
+.home-SideNavbar::-webkit-scrollbar {
+    width: 12px;
+}
+.home-SideNavbarHide{
+    display: none;
+}
+.home-sideNavbarTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+border-bottom: 1px solid rgba(86, 85, 85);
+}
+.side-NavbarTopOption{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    padding: 9px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: rgba(35, 35, 35);
+    }
+}
+.home-sideNavbarTopOptionTitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.home-sideNavbarMid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+border-bottom: 1px solid rgba(86, 85, 85);
+}
+.side-NavbarMidOption{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    padding: 9px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    
+    &:hover {
+        background-color: rgba(35, 35, 35);
+    }
+}
+.home-sideNavbarMidOptionTitle {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
+.home-sideNavbarBottomOptionTitleHeder {
+    font-weight: 600;
+    font-size: 18px;
+}
+.sideNavbarLogo{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
